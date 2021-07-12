@@ -11,6 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -21,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="決定"/>
                                 <connections>
-                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64W-oj-5bv"/>
+                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZm-tP-sY3"/>
                                     <segue destination="fGC-oq-ehN" kind="show" id="DDg-Rn-0Lk"/>
                                 </connections>
                             </button>
@@ -50,11 +51,7 @@
                             <constraint firstItem="NJY-0Y-noQ" firstAttribute="top" secondItem="0pA-oc-LsH" secondAttribute="bottom" constant="20" id="w87-fa-B0A"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textField" destination="NJY-0Y-noQ" id="ono-eb-n26"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28" y="84"/>
         </scene>
