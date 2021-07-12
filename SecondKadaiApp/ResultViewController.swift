@@ -19,12 +19,9 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-        // 上記では、x, y を 0 と宣言していたが、
-        // 1画面目のViewControllerから遷移するときにprepareForSegueで
-        // x, yの値を新たに代入されたので両方共 1 が入っている
+    
         let result = name
-        label.text = "結果は \(result) です"
+        label.text = "こんにちは \(result) さん！"
     }
     /*
     // MARK: - Navigation

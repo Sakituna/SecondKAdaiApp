@@ -51,9 +51,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="0pA-oc-LsH" id="znc-XZ-ciP"/>
                         <outlet property="textField" destination="NJY-0Y-noQ" id="ono-eb-n26"/>
-                        <outlet property="textlabel" destination="8bC-Xf-vdC" id="7il-oM-bqt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
