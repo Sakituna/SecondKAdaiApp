@@ -8,9 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var textLabel: UIView!
-    
+    @IBOutlet weak var textField: UITextField!
     @IBAction func handle(_ sender: Any) {
     }
     
@@ -19,9 +17,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+   //view controllerで何をするかのメソッド
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           // segueから遷移先のResultViewControllerを取得する
+           let resultViewController:ResultViewController = segue.destination as! ResultViewController
+        
+        
+        resultViewController.name = ""
+        }
+
     
-    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+@IBAction func unwind(_ segue: UIStoryboardSegue) {
        }
-
 }
-
