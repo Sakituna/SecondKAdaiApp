@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,11 +23,8 @@ class ViewController: UIViewController {
            // segueから遷移先のResultViewControllerを取得する
            let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
-        
-        resultViewController.name = ""
-        
-        }
-
+        resultViewController.name = textField.text!
+    }
     
 @IBAction func unwind(_ segue: UIStoryboardSegue) {
        }

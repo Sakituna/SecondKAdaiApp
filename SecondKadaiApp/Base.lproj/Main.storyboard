@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="決定"/>
                                 <connections>
-                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZm-tP-sY3"/>
+                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rt5-9e-abQ"/>
                                     <segue destination="fGC-oq-ehN" kind="show" id="DDg-Rn-0Lk"/>
                                 </connections>
                             </button>
@@ -51,6 +51,9 @@
                             <constraint firstItem="NJY-0Y-noQ" firstAttribute="top" secondItem="0pA-oc-LsH" secondAttribute="bottom" constant="20" id="w87-fa-B0A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="NJY-0Y-noQ" id="5rI-ad-MK2"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="28" y="84"/>
